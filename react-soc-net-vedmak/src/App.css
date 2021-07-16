@@ -1,0 +1,32 @@
+body {
+    background: #c7cbda;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "aside main";
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: 1fr 4fr;
+    margin: 0 50px 0 50px;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+

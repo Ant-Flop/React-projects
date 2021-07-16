@@ -1,0 +1,25 @@
+header {
+    grid-area: header;
+    background: #333333;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+header a {
+    color: #ffffff;
+}
+
+.header {
+    display: inline-block;
+}
+
+.exit {
+    float: right;
+}
+
+
+
+

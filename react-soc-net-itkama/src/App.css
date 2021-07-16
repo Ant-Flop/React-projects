@@ -1,0 +1,22 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1500px;
+    height: 250px;
+    grid-template-areas: "header header"
+                         "nav  main";
+    grid-template-rows: 100px;
+    grid-template-columns: 200px;
+}
+
+.app-wrapper-content {
+    margin: 5px;
+    grid-area: main;
+    background-color: #ffff64;
+}
+
+
+
+
+
+
